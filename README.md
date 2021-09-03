@@ -22,5 +22,5 @@ Temps estimé : 2h30
 7. Ne pas oublier d'ajouter l'enseignante au projet si vous voulez de la rétroaction sur votre travail
 
 ## Notes
-- Vous pouvez modifier le texte a votre guise
+- Vous pouvez modifier le texte à votre guise
 - Vous pourrez présenter votre travail à la classe si vous le voulez
