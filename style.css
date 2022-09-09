@@ -4,14 +4,43 @@ header{
     font-family: Impact, fantasy;
     color: #7FB3D5;
     font-size: large;
+    border: 1px;
+    border-radius: 10px;
+
 }
 
 body{
-    background-color: #CACFD2 ;
+    background-color: #A5D6A7 ;
 }
 
 
 section p:first-of-type::first-letter{
     font-size: 5em;
-    color: #5499C7;
+    color: #C70039;
 }
+
+ul{
+    padding:0;
+    background:black;
+    font-family:Arial, sans serif;
+    font-size:12px;
+    text-transform:uppercase;
+}
+
+
+li {
+    display: inline-table;
+    width: 60px;
+}
+a{
+    display: block;
+    padding:9px;
+    color:white;
+}
+
+li a:hover{
+    background-color: #E0F2F1;
+    color: #C70039;
+}
+
+
