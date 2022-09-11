@@ -10,9 +10,15 @@ header{
 }
 
 body{
-    background-color: #A5D6A7 ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+p{
+    margin: fill;
+    background: darkgrey;
+    border-radius: 9px;
 
+}
 
 section p:first-of-type::first-letter{
     font-size: 5em;
@@ -45,6 +51,7 @@ li a:hover{
 
 table{
     border-collapse: collapse;
+    background: white;
 }
 th, td{
     border: 1px solid black;
