@@ -1,17 +1,14 @@
 header{
-    background-color: #C70039;
+    background-color: #c9496d;
     text-align: center;
     font-family: Impact, fantasy;
-    color: #7FB3D5;
+    color: #04263d;
     font-size: large;
     border: 1px;
     border-radius: 10px;
 
 }
 
-section{
-    background-color: black;
-}
 
 body{
     background-repeat: no-repeat;
@@ -60,4 +57,24 @@ table{
 th, td{
     border: 1px solid black;
     padding: 10px;
+}
+.form{
+    background-color: black;
+}
+
+[name]:not([type="checkbox"][id]),[type="submit"]{
+    display: block;
+}
+
+:invalid + .erreur{
+    border: 3px solid red;
+    display: block
+}
+.erreur{
+    color: #C70039;
+    display: none;
+    background-color: white;
+}
+a{
+    background-color: #04263d;
 }

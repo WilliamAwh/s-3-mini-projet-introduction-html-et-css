@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <header>
@@ -14,7 +15,7 @@
         Nom:
         <input type="text" name="nom">
     </label>
-    <label>
+    <label>type:
         <select name="idee" >
             <option>articles</option>
             <option>stocks</option>
@@ -22,6 +23,21 @@
             <option>employés</option>
         </select>
     </label>
+    <label>Courriel:
+    <input type="email" name="courriel" placeholder="nom@william.com">
+    </label>
+    <label for="prix">Prix</label>
+    <input id="prix" type="number" name="prix">
+    <p class="erreur">Le prix doit etre un chiffre</p>
+    <label for="description">Description produit:</label>
+    <textarea name="description" id="description"></textarea>
+    <div>
+        <input type="checkbox" id="infolettre" name="infolettre" placeholder="100">
+        <label for="infolettre">Je veux m'abonner</label>
+    </div>
+
+    <input type="submit">
+
 
 </form>
 <body>
