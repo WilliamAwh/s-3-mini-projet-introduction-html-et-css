@@ -9,6 +9,10 @@ header{
 
 }
 
+section{
+    background-color: black;
+}
+
 body{
     background-repeat: no-repeat;
     background-size: cover;
